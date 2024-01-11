@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to bottom right, #000, #372206);
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  border-color: #372206;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Modification des liens lorsque la souris passe dessus.*/
+a:hover {
+  color: #cf9802;
+}
+
+footer {
+  background-color: #000;
+  border-color: #372206;
+}
+
+footer a {
+  color: #b80000;
+}
+
+#barre-accueil li>span:hover {
+  border: solid #612700;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+  background-color: #fff;
+}
+
+.menu__box {
+  background-color: #14110c;
+}
+
+.menu__item {
+  color: #fff;
+}
+
+.menu__item:hover {
+  background-color: #c16100;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="La page du formulaire.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" href="../images/tigreIcone.ico">
+  
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/formulaire/styleFormulaire.css" rel="stylesheet">
+  <link id='theme' rel="stylesheet" href="../css/lightStyle.css">
+  
+  <title>Les Félins - Votre avis</title>
+</head>
+
+<body>
+
+  <header>
+    <button id='themeChanger' type='button'>changer le thème</button>
+    <h1>Votre avis nous intéresse !</h1>
+  </header>
+
+  <div class="Menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="../index.html">Accueil</a></li>
+      <li><a class="menu__item" href="chat.html">Les chats</a></li>
+      <li><a class="menu__item" href="guepard.html">Les guépards</a></li>
+      <li><a class="menu__item" href="ocelot.html">Les ocelots</a></li>
+      <li><a class="menu__item" href="tigre.html">Les tigres</a></li>
+      <li><a class="menu__item" href="formulaire.html">Donnez votre avis</a></li>
+    </ul>
+  </div>
+
+  <form class="corps"
+    action="mailto:cedric.mayeur@etu.univ-amu.fr,ronan.garrigues@etu.univ-amu.fr,manon.verhille@etu.univ-amu.fr,pierre-andre.rigat@etu.univ-amu.fr,?subject=Donnez%20votre%20avis%20sur%20notre%20site"
+    method="post" enctype="text/plain">
+    <p>
+      <label for="bot"> Je ne suis pas un robot</label>
+      <input id="bot" type="checkbox" name="bot" value=" " required="required"><br>
+      
+      <label for="prenom">Prénom</label>
+      <input id="prenom" type="text" name="prenom" value=" " required="required"><br>
+      
+      <label for="nom">Nom</label>
+      <input id="nom" type="text" name="nom" value=" " required="required"><br>
+
+      <label for="mail">Email</label>
+      <input id="mail" type="email" name="mail" value=" " required="required"><br>
+
+      <select name="sexe">
+        <option>homme</option>
+        <option>femme</option>
+        <option>non precise</option>
+      </select><br>
+      <textarea name="avis" rows="2" cols="50" required="required"
+        placeholder="Donnez vos impressions sur le site..."></textarea><br>
+      <input class="envoi" type="submit" value="Envoyer">
+    </p>
+  </form>
+
+  <footer>
+    <img src="../images/tigreIcone.ico" class="icone-site" alt="Icone du site">
+    <p>©️ Les Félins - 2024 - <a href="formulaire.html">Donnez votre avis !</a></p>
+    <p>Site réalisé par le BUT Informatique de Aix-En-Provence</p>
+  </footer>
+
+  <script src='../js/themeChanger.js' defer></script>
+</body>
+
+</html>

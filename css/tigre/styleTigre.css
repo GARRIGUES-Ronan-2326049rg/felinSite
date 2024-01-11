@@ -1,9 +1,9 @@
-li.anecdote>span:hover {
+li.anecdoteCamouflage>span:hover {
   color: #26a269;
 }
 
-body {
-  background-color: #ffdec8;
+video{
+  object-position: 50% 50%
 }
 
 @keyframes slideinLeftToMiddle {
@@ -18,10 +18,14 @@ body {
   }
 }
 
+.caracteristique {
+  display: flex;
+  justify-content: space-around;
+}
+
 h1 {
   animation-duration: 2s;
   animation-name: slideinLeftToMiddle;
   font-family: Brush Script MT, Brush Script Std, cursive;
   text-align: center;
-  font-size: 5em;
 }

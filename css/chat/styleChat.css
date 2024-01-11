@@ -1,22 +1,75 @@
-/*Modification du body.*/
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: linear-gradient(to bottom right, #ffcdaa, #b5a797);
+/*Modification du titre h2*/
+h2 {
+  font-family: system-ui;
 }
 
-/*Modification de la balise h1.*/
-h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+/*Modification du texte d'introduction.*/
+#introduction {
   text-align: center;
-  font-size: 5em;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
-/*Modification de la couleur des liens avant d'être consultés..*/
-a:hover {
-  color: #621f09;
+/*Modification du sommaire.*/
+#sommaire {
+  background-color: #a1744f;
+  border: solid;
+  border-color: #4e2b0e;
+  border-radius: 0.5em;
+  margin-right: auto;
+  max-width: 30em
 }
 
-/*Modification de la couleur des liens consultés.*/
-a:visited {
-  color: #c89528;
+/*Modification du contenu du sommaire.*/
+#contenu-sommaire {
+  display: flex;
+  margin-left: 1.5em;
+  margin-right: auto;
+}
+
+/*Modification du top 5.*/
+.img-container ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+  font-size: 1em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img-container img {
+  width: 88%;
+}
+
+.img-container li {
+  width: 100%
+}
+
+@media (min-width: 671px) {
+  .img-container li {
+    width: 33%
+  }
+}
+
+/*Modification de la classe chat.*/
+.chat ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+  font-size: 1em;
+  flex-wrap: wrap;
+}
+
+.chat li {
+  display: inline-block;
+}
+
+.image-chat {
+  width: 50%;
+}
+
+h4 {
+  margin-left: 1em;
 }
