@@ -6,8 +6,8 @@ h2 {
 /*Modification du texte d'introduction.*/
 #introduction {
   text-align: center;
-  padding-left: 6em;
-  padding-right: 6em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /*Modification du sommaire.*/
@@ -16,13 +16,12 @@ h2 {
   border: solid;
   border-color: #4e2b0e;
   border-radius: 0.5em;
-  margin-right: auto;
-  max-width: 30em
+  max-width: 30em;
 }
 
 /*Modification du contenu du sommaire.*/
 #contenu-sommaire {
-  display: flex;
+  display: block;
   margin-left: 1.5em;
   margin-right: auto;
 }
@@ -39,6 +38,7 @@ h2 {
 }
 
 .img-container img {
+  border-radius: 5%;
   width: 88%;
 }
 
@@ -67,6 +67,7 @@ h2 {
 }
 
 .image-chat {
+  border-radius: 5%;
   width: 50%;
 }
 

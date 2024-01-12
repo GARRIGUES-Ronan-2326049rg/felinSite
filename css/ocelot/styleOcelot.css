@@ -1,6 +1,14 @@
-img {
-  width: 50%;
-  height: 50%;
+img #ocelot {
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+}
+
+.ocelot {
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+  border-radius: 3%;
 }
 
 .son {

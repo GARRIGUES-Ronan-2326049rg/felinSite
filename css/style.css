@@ -6,6 +6,49 @@ html {
 #themeChanger {
   right: 0;
   position: absolute;
+  margin-right: 2%;
+  margin-top: 2%;
+  height: 6%;
+  width: 17%;
+}
+
+#themeChanger>img {
+  width: 0%;
+  opacity: 0;
+}
+
+#themeChanger>img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+/*Modification du bouton de changement de thème.*/
+@media (min-width: 1346px) {
+  #themeChanger {
+    background: transparent;
+    border: none !important;
+    right: 0;
+    position: absolute;
+    margin: 1%;
+    height: 11%;
+    width: 6%;
+  }
+
+  #themeChanger>img {
+    width: 105%;
+    opacity: 1;
+  }
+
+  #themeChanger>img:hover {
+    transform: scale(1.1);
+  }
+}
+
+/*Modification image lien Discord.*/
+#discord {
+  width: 3%;
+  height: 3%;
 }
 
 /*Modification du body.*/
@@ -48,6 +91,10 @@ footer a {
   text-decoration: none;
 }
 
+footer a>img {
+  width: 5%;
+}
+
 .icone-site {
   width: 5%;
   height: 5%
@@ -80,7 +127,8 @@ footer a {
 
 #barre-accueil img:hover {
   border-radius: 5%;
-  transform: scale(1.05)
+  transform: scale(1.10);
+  transition: 0.5s;
 }
 
 #barre-accueil img {
@@ -159,6 +207,7 @@ footer a {
 
 .menu__item {
   display: block;
+  margin-top: 1em;
   padding: 0em 0em;
   font-size: 1em;
   font-weight: 60;

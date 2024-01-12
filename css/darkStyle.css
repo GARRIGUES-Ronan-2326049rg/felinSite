@@ -4,12 +4,12 @@ body {
 }
 
 header {
-  background-color: #000;
+  background-color: #000000;
   border-color: #372206;
 }
 
 a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -25,6 +25,26 @@ footer {
 
 footer a {
   color: #b80000;
+}
+
+#themeChanger {
+  color: #000;
+}
+
+#themeChanger:hover {
+  color: #fff;
+}
+
+@media (max-width: 1346px) {
+  #themeChanger {
+    color: #fff;
+    background-color: #000;
+  }
+
+  #themeChanger:hover {
+    color: #000;
+    background-color: #fff;
+  }
 }
 
 #barre-accueil li>span:hover {

@@ -17,12 +17,15 @@
 <body>
   <a id="haut-de-page"></a>
   <header>
-    <button id='themeChanger' type='button'>changer le thème</button>
+    <button type='button' id='themeChanger'>
+      <img src="../images/tigre/boutonTigre.png" alt="Bouton pour changer de thème"><br>
+      Thème
+    </button>
     <h1>Les Tigres</h1>
   </header>
 
   <div class="Menu">
-    <input id="menu__toggle" type="checkbox" />
+    <input id="menu__toggle" type="checkbox">
     <label class="menu__btn" for="menu__toggle">
       <span></span>
     </label>
@@ -49,10 +52,10 @@
 
     <h2>Caractéristiques Générales</h2>
     <div class="caracteristique">
-      <table border="2">
+      <table>
 
         <thead>
-          <tr Menu Principal>
+          <tr>
             <th colspan="2">Tableau des caractéristiques</th>
           </tr>
         </thead>
@@ -79,12 +82,11 @@
             <td>Capacité d'adaptation aux changements</td>
           </tr>
         </tbody>
-
       </table>
 
-      <video controls width=600em>
-        <track default king="caption" srclanf="fr" src="../video/sousTigres.vtt" label="Français">
-        <source src="../video/tigreVideo.mp4" type="video/mp4" />
+      <video controls>
+        <source src="../video/tigreVideo.mp4" type="video/mp4">
+        <track srclang="fr" src="../video/sousTigres.vtt" label="Français">
       </video>
     </div>
     <h3>Quelques FunFact</h3>
@@ -101,7 +103,7 @@
     </ul>
 
     <audio controls>
-      <source src="sons/tigreRugit.mp3" type="audio/mpeg" />
+      <source src="../sons/tigreRugit.mp3" type="audio/mpeg">
       <p>
         Votre navigateur ne prend pas en charge l'audio HTML5. Voici un
         <a href="../sons/tigreRugit.mp3">lien vers le fichier audio</a> à la place.
@@ -117,6 +119,9 @@
     <img src="../images/tigreIcone.ico" class="icone-site" alt="Icone du site">
     <p>©️ Les Félins - 2024 - <a href="formulaire.html">Donnez votre avis !</a></p>
     <p>Site réalisé par le BUT Informatique de Aix-En-Provence</p>
+    <a href="https://discord.gg/cPJeTKd9">
+      <img id='discord' src="../images/logo/logoDiscord.png" alt="Logo Discord">
+    </a>
   </footer>
   <script src='../js/themeChanger.js' defer></script>
 </body>

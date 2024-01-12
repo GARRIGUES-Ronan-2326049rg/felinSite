@@ -2,8 +2,12 @@ li.anecdoteCamouflage>span:hover {
   color: #26a269;
 }
 
+td, th{
+  border: solid;
+}
+
 video{
-  object-position: 50% 50%
+  width: 40%
 }
 
 @keyframes slideinLeftToMiddle {
@@ -18,9 +22,23 @@ video{
   }
 }
 
+
 .caracteristique {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 722px) {
+  .caracteristique {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .caracteristique > video{
+    width: 75%;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
 }
 
 h1 {
