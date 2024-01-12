@@ -1,0 +1,29 @@
+form {
+  background-image: url("images/pelage-tigre.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 0em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+label,
+input {
+  margin-bottom: 3em;
+}
+
+input {
+  padding: 0.7em;
+  border: 0.2em solid #5e4831;
+}
+
+.envoi {
+  background-color: #967f64;
+}
+
+textarea {
+  width: 80%;
+}

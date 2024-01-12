@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(to bottom right, #f5d7ad, #ae987e);
+}
+
+header {
+  background-color: #967f64;
+  border-color: #5e4831;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Modification des liens lorsque la souris passe dessus.*/
+a:hover {
+  color: #cf9802;
+}
+
+footer {
+  background-color: #967f64;
+  border-color: #5e4831;
+}
+
+footer a {
+  color: #b80000;
+}
+
+#themeChanger {
+  color: #967f64;
+}
+
+#themeChanger:hover {
+  color: #000;
+}
+
+@media (max-width: 1346px) {
+  #themeChanger {
+    color: #000;
+    background-color: #fff;
+  }
+
+  #themeChanger:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+#barre-accueil li>span:hover {
+  border: solid #612700;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+  background-color: #000000;
+}
+
+.menu__box {
+  background-color: #b8a27f;
+}
+
+.menu__item {
+  color: #000000;
+}
+
+.menu__item:hover {
+  background-color: #dcddd0;
+}

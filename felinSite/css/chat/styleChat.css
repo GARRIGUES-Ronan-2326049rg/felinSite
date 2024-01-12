@@ -1,0 +1,76 @@
+/*Modification du titre h2*/
+h2 {
+  font-family: system-ui;
+}
+
+/*Modification du texte d'introduction.*/
+#introduction {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/*Modification du sommaire.*/
+#sommaire {
+  background-color: #a1744f;
+  border: solid;
+  border-color: #4e2b0e;
+  border-radius: 0.5em;
+  max-width: 30em;
+}
+
+/*Modification du contenu du sommaire.*/
+#contenu-sommaire {
+  display: block;
+  margin-left: 1.5em;
+  margin-right: auto;
+}
+
+/*Modification du top 5.*/
+.img-container ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+  font-size: 1em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img-container img {
+  border-radius: 5%;
+  width: 88%;
+}
+
+.img-container li {
+  width: 100%
+}
+
+@media (min-width: 671px) {
+  .img-container li {
+    width: 33%
+  }
+}
+
+/*Modification de la classe chat.*/
+.chat ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+  font-size: 1em;
+  flex-wrap: wrap;
+}
+
+.chat li {
+  display: inline-block;
+}
+
+.image-chat {
+  border-radius: 5%;
+  width: 50%;
+}
+
+h4 {
+  margin-left: 1em;
+}
